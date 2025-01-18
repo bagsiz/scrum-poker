@@ -61,7 +61,7 @@ npm install
 
 Create `.env` and `.env.production` files with the following variables:
 
-````env
+```env
 REACT_APP_DOMAIN=your-company-domain.com
 REACT_APP_FIREBASE_API_KEY=your-api-key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
