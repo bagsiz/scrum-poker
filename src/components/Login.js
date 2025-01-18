@@ -22,7 +22,7 @@ export default function Login() {
       await signInWithGoogle();
       navigate('/');
     } catch (error) {
-      setError('Failed to sign in. Make sure you use a mynetgroup.com email.');
+      setError('Failed to sign in. Make sure you use a corporate email.');
     }
   };
 
